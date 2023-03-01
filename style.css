@@ -1,0 +1,147 @@
+
+*   {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+body    {
+    background-image: linear-gradient(rgb(200, 200, 200), rgb(143, 143, 143));
+    height: 43.7rem;
+}
+
+.main  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    margin-top: 60px;
+}
+
+.caption    {
+    width: 225px;
+    line-height: 1.3em;
+    background-image: linear-gradient(rgb(241, 241, 241), rgb(229, 229, 229));
+    color: rgb(21, 21, 21);
+    border-radius: 2px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 2px 4px rgb(83, 83, 83);
+    font-size: .6rem;
+}
+
+/*Painting "Remade"*/
+
+.remade-frame  {
+    border-left: .5px solid #dbccb5;
+    border-top: .5px solid #dbccb5;
+    border-bottom: .5px solid #dbccb5;
+    border-radius: 0px 0px 3px 0px;
+    box-shadow: -3px 4px 5px rgba(83, 83, 83, 0.422);
+}
+
+.remade     {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.top-white-1   {
+    border-right: 14px solid #13211e;
+    border-bottom: 14px solid #13211e;
+    background-image: linear-gradient(#dbd6ce, #e5e4e0);
+    width: 100px;
+    height: 140px;
+}
+
+.top-white-2   {
+    border-right: 14px solid #13211e;
+    border-top: 14px solid #13211e;
+    background-image: linear-gradient(#e8e9e3, #e7e7e5);
+    width: 100px;
+    height: 160px;
+}
+
+.top-red   {
+    width: 326px;
+    height: 327px;
+    background: rgb(255,91,87);
+    background: linear-gradient(203deg, #e13834 0%, rgba(212,38,28,1) 100%);
+}
+
+.top    {
+    display: flex;
+}
+
+.bottom-blue     {
+    border-right: 14px solid #13211e;
+    border-top: 14px solid #13211e;
+    background-color: #025b9e;
+    width: 100px;
+    height: 110px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bottom-blue > p    {
+    font-size: .4rem;
+    margin-right: 4px;
+    font-weight: 500;
+}
+
+.bottom-white   {
+    border-right: 14px solid;
+    border-top: 14px solid;
+    border-image: linear-gradient(250deg, #2f2928, #13211e 130%) 30;
+    background-color: #e0dfdb;
+    width: 278px;
+    height: 111px;
+}
+
+.bottom-right-white-1   {
+    border-top: 14px solid #2f2928;
+    border-bottom: 14px solid #2f2928;
+    background-color: #e0dfdb;
+    width: 32px;
+    height: 45px;
+}
+
+.bottomright-yellow-1   {
+    border-top: 6px solid #2f2928;
+    background-color: #eedc6d;
+    width: 32px;
+    height: 47px;
+}
+
+.bottom-right-white-2   {
+    border-top: 14px solid #2f2928;
+    background-color: #e0dfdb;
+    width: 3px;
+    height: 55px;
+}
+
+.bottomright-yellow-2  {
+    background-color: #eedc6d;
+    width: 3px;
+    height: 56px;
+}
+
+.bottom     {
+    display: flex;
+}
+
+/*Original Painting*/
+.original   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.original > img  {
+    width: 450px;
+    box-shadow: -3px 4px 5px rgba(83, 83, 83, 0.422);
+}
